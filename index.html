@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+
+  <!-- Title -->
+  <title>Mohamed Waleed</title>
+
+  <!-- Meta Tags -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Mohamed Waleed Is A Front-End Developer And A Ui Designer.">
+  <meta name="keywords" content="Mohamed Waleed, Mohamed Waleed Portfolio, محمد وليد, blue dragon coding">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jura:wght@300..700&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap" rel="stylesheet">
+
+  <!-- Icon -->
+  <link rel="shortcut icon" href="imgs/me.ico" type="image/x-icon">
+
+  <!-- Css -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body onload="showLoading()">
+
+    <!-- Loading -->
+    <div id="loading" style="">
+      <div class="loader">
+        <img src="/imgs/footer-logo.webp" alt="loading">
+      </div>
+    </div>
+    
+    <!-- Script -->
+    <script>
+      function showLoading() {
+          document.getElementById("loading").style.display = "block";
+          setTimeout(redirectAfterLoading, 5000);
+      }
+      
+      function redirectAfterLoading() {
+          document.getElementById("loading").style.display = "none";
+          window.location.href = "home.html";
+        }
+  </script>
+</body>
+</html>
