@@ -475,7 +475,7 @@ section{
 }
 .info {
   margin-top: 10px;
-  max-width: 300px;
+  width: 50vh;
   font-size: 17px;
 }
 .about-img {
