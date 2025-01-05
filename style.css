@@ -175,6 +175,8 @@ html {
   .hero .icons {
     display: none !important;
   }
+  .info{
+    width: 250px;
 }
 
 @media screen and (max-width: 1500px) {
@@ -206,6 +208,8 @@ html {
     left: 0% !important;
     position: fixed;
   }
+  .info{
+    width: 300px;
   .nav-bar a {
     display: block;
     font-size: 20px;
@@ -220,7 +224,6 @@ html {
     font-size: 20px;
   }
 }
-
 /* Hero Section */
 .hero .icons {
   left: 0;
