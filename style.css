@@ -181,6 +181,8 @@ html {
   .menu-btn {
     display: none;
   }
+ .info{
+   width: 500px;
 }
 
 @media screen and (max-width: 900px) {
