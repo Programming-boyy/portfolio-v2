@@ -477,7 +477,7 @@ section{
   background: linear-gradient(to left, #1654ff, #239cff, #1654ff);
 }
 #about p {
-  max-width: 400px;
+  max-width: 500px;
   font-size: 17px;
 }
 .about-img {
