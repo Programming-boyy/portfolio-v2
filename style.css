@@ -517,6 +517,8 @@ section{
   border: 1px #333 solid;
   width: 300px;
   height: 250px;
+  max-width: 500px;
+  max-height: 450px;
 }
 .card img {
   border-radius: 20px;
