@@ -58,6 +58,7 @@ html, body {
 }
 .title-cont h2 {
   font-size: 50px;
+  text-shadow: 3px 0px 0px #5D2DFF;
 }
 .title {
   font-size: 80px;
@@ -351,7 +352,7 @@ section{
   display: flex;
   background: #001;
   justify-content: space-around;
-  padding: 10px;
+  padding: 30px;
 }
 .skills {
   display: flex;
@@ -359,6 +360,8 @@ section{
   gap: 10px;
   align-items: center;
   margin-top: 10px;
+  margin: auto;
+  justify-content: center;
 }
 .skill{
   width: 150px;
@@ -473,14 +476,12 @@ section{
   height: 2px;
   background: linear-gradient(to left, #1654ff, #239cff, #1654ff);
 }
-.info {
-  margin-top: 10px;
-  width: 300px;
+#about p {
+  max-width: 600px;
   font-size: 17px;
 }
 .about-img {
-  width: auto;
-  height: 250px;
+  height: auto;
   object-fit: cover;
   height: auto;
   border-radius: 10px;
