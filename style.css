@@ -515,7 +515,7 @@ section{
   backdrop-filter: blur(5px);
   border: 1px #333 solid;
   width: 50vh;
-
+  height: 250px;
 }
 .card img {
   border-radius: 20px;
