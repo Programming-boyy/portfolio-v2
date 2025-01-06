@@ -88,7 +88,7 @@ html, body {
   background: linear-gradient(#002, #006eff93, #002);
 }
 span {
-  color: #1696ff;
+  color: #168EFF;
   filter: drop-shadow(1px 1px 10px #5784ff25);
 }
 html {
@@ -488,15 +488,17 @@ section{
 #about p {
   max-width: 600px;
   font-size: 17px;
+  margin-top: 10px;
 }
 .about-img {
-  height: auto;
+  width: 250px;
   object-fit: cover;
-  height: auto;
+  height: 350px;
   border-radius: 10px;
   margin-top: 50px;
   margin: auto;
   margin-top: 20px;
+  background: #6000F5AB;
 }
 .about-img img {
   transition: 0.50s;
@@ -504,9 +506,12 @@ section{
   height: 350px;
   object-fit: cover;
   border-radius: 10px;
+  transform: rotate(5deg);
+  border: 1px #8C00FF solid;
 }
 .about-img img:hover {
   transform: none;
+  border: none;
 }
 
 /* Projects */
@@ -523,6 +528,7 @@ section{
   position: relative;
   backdrop-filter: blur(5px);
   border: 1px #333 solid;
+  min-width: 300px;
   max-width: 500px;
   max-height: 450px;
 }
@@ -838,3 +844,4 @@ a:hover {
 .card .content a:hover {
   color: #fff;
 }
+
